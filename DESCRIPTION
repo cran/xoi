@@ -1,6 +1,6 @@
 Package: xoi
-Version: 0.59-2
-Date: 10/15/2012
+Version: 0.61-1
+Date: 1/14/2013
 Depends: R (>= 2.10.1), qtl, stats
 Title: Tools for analyzing crossover interference
 Author: Karl W Broman <kbroman@biostat.wisc.edu>, Il youp Kwak
@@ -9,6 +9,6 @@ Description: Analysis of crossover interference in experimental
         crosses, particularly regarding the gamma model.
 License: GPL-3
 URL: http://www.biostat.wisc.edu/~kbroman/software.html
-Packaged: 2012-10-15 15:20:59 UTC; kbroman
+Packaged: 2013-01-14 15:36:49 UTC; kbroman
 Repository: CRAN
-Date/Publication: 2012-10-15 15:30:05
+Date/Publication: 2013-01-14 17:19:20
