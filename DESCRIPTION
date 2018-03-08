@@ -1,6 +1,6 @@
 Package: xoi
-Version: 0.66-9
-Date: 2015-10-18
+Version: 0.67-4
+Date: 2018-03-08
 Depends: R (>= 2.10.1), qtl
 Title: Tools for Analyzing Crossover Interference
 Author: Karl W Broman <kbroman@biostat.wisc.edu>, with contributions
@@ -11,8 +11,13 @@ Description: Analysis of crossover interference in experimental crosses,
 Imports: stats, utils
 Suggests: devtools, roxygen2, testthat
 License: GPL-3
-URL: http://github.com/kbroman/xoi
+URL: https://github.com/kbroman/xoi
+BugReports: https://github.com/kbroman/xoi/issues
+RoxygenNote: 6.0.1
+Encoding: UTF-8
+ByteCompile: true
+LazyData: true
 NeedsCompilation: yes
-Packaged: 2015-10-18 14:19:43 UTC; kbroman
+Packaged: 2018-03-08 15:09:00 UTC; kbroman
 Repository: CRAN
-Date/Publication: 2015-10-18 17:20:01
+Date/Publication: 2018-03-08 16:06:50 UTC
