@@ -58,16 +58,16 @@ xo_oblchi_stahl <- simStahl(100, nu=11, p=0.1, L=80, obligate_chiasma=TRUE)
 }
 \references{
 Copenhaver, G. P., Housworth, E. A. and Stahl, F. W. (2002)
-Crossover interference in Arabidopsis. \emph{Genetics} \bold{160},
+Crossover interference in Arabidopsis. \emph{Genetics} \strong{160},
 1631--1639.
 
 Housworth, E. A. and Stahl, F. W. (2003) Crossover interference in humans.
-\emph{Am J Hum Genet} \bold{73}, 188--197.
+\emph{Am J Hum Genet} \strong{73}, 188--197.
 }
 \seealso{
-\code{\link{fitGamma}}, \code{\link[qtl]{sim.cross}}
+\code{\link[=fitGamma]{fitGamma()}}, \code{\link[qtl:sim.cross]{qtl::sim.cross()}}
 }
 \author{
-Karl W Broman, \email{kbroman@biostat.wisc.edu}
+Karl W Broman, \email{broman@wisc.edu}
 }
 \keyword{datagen}

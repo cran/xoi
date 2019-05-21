@@ -6,8 +6,9 @@
 \usage{
 fitGamma(d, censor = NULL, nu = NULL, lo = NULL, hi = NULL,
   se = FALSE, supint = FALSE, rescale = FALSE, drop = 1.5,
-  tol = 0.00001, maxit = 1000, max.conv = 25, integr.tol = 0.00000001,
-  max.subd = 1000, min.subd = 10, h = 0.1, hstep = 1.5)
+  tol = 0.00001, maxit = 1000, max.conv = 25,
+  integr.tol = 0.00000001, max.subd = 1000, min.subd = 10, h = 0.1,
+  hstep = 1.5)
 }
 \arguments{
 \item{d}{A vector of inter-crossover distances in cM.  This should include
@@ -89,9 +90,9 @@ locations.
 \details{
 See Broman and Weber (2000) for details of the method.
 
-We use R's \code{\link[stats]{integrate}} function for numerical integrals,
-\code{\link[stats]{optimize}} for optimizing the likelihood, and
-\code{\link[stats]{uniroot}} for identifying the endpoints of the likelihood
+We use R's \code{\link[stats:integrate]{stats::integrate()}} function for numerical integrals,
+\code{\link[stats:optimize]{stats::optimize()}} for optimizing the likelihood, and
+\code{\link[stats:uniroot]{stats::uniroot()}} for identifying the endpoints of the likelihood
 support interval.
 }
 \examples{
@@ -127,18 +128,18 @@ abline(v=mle[2:3,1], h=mle[2:3,2], col="red", lty=2)
 }
 \references{
 Broman, K. W. and Weber, J. L. (2000) Characterization of human
-crossover interference. \emph{Am. J. Hum. Genet.} \bold{66}, 1911--1926.
+crossover interference. \emph{Am. J. Hum. Genet.} \strong{66}, 1911--1926.
 
 Broman, K. W., Rowe, L. B., Churchill, G. A. and Paigen, K. (2002) Crossover
-interference in the mouse. \emph{Genetics} \bold{160}, 1123--1131.
+interference in the mouse. \emph{Genetics} \strong{160}, 1123--1131.
 
 McPeek, M. S. and Speed, T. P. (1995) Modeling interference in genetic
-recombination.  \emph{Genetics} \bold{139}, 1031--1044.
+recombination.  \emph{Genetics} \strong{139}, 1031--1044.
 }
 \seealso{
-\code{\link[qtl]{fitstahl}}
+\code{\link[qtl:fitstahl]{qtl::fitstahl()}}
 }
 \author{
-Karl W Broman, \email{kbroman@biostat.wisc.edu}
+Karl W Broman, \email{broman@wisc.edu}
 }
 \keyword{models}

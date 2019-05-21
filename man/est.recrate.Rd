@@ -45,9 +45,9 @@ plot(rr, type="l", lwd=2)
 
 }
 \seealso{
-\code{\link{est.coi}}, \code{\link{intensity}}
+\code{\link[=est.coi]{est.coi()}}, \code{\link[=intensity]{intensity()}}
 }
 \author{
-Karl W Broman, \email{kbroman@biostat.wisc.edu}
+Karl W Broman, \email{broman@wisc.edu}
 }
 \keyword{models}
