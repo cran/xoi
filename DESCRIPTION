@@ -1,6 +1,6 @@
 Package: xoi
-Version: 0.68-3
-Date: 2019-05-21
+Version: 0.69-2
+Date: 2020-02-26
 Depends: R (>= 2.10.1), qtl
 Title: Tools for Analyzing Crossover Interference
 Author: Karl W Broman [aut, cre] (<https://orcid.org/0000-0002-4914-6671>),
@@ -24,6 +24,6 @@ Encoding: UTF-8
 ByteCompile: true
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2019-05-21 13:22:52 UTC; kbroman
+Packaged: 2020-02-26 18:28:22 UTC; kbroman
 Repository: CRAN
-Date/Publication: 2019-05-21 15:10:03 UTC
+Date/Publication: 2020-02-26 19:50:02 UTC

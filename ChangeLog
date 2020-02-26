@@ -1,6 +1,6 @@
 Revision history for the R/xoi package
 ----------------------------------------------------------------------
-copyright (c) 1999-2019, Karl W Broman
+copyright (c) 1999-2020, Karl W Broman
 
     The R/xoi package is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License,
@@ -14,6 +14,13 @@ copyright (c) 1999-2019, Karl W Broman
     A copy of the GNU General Public License, version 3, is available
     at https://www.r-project.org/Licenses/GPL-3
 ----------------------------------------------------------------------
+
+Version 0.69, 2020-02-26:
+
+  Fix use of class(), using for example inherits(cross, "cross") to
+  determine if an object has class "cross". Also, added an internal
+  function crosstype() for grabbing the cross type.
+
 
 Version 0.68, 2019-05-21:
 
