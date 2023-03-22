@@ -1,6 +1,6 @@
-885a5498db8ad020e0139f7c9cf16e59 *ChangeLog
-e92ba7308b027626489509fd4ac30557 *DESCRIPTION
+6cec26eb59d013b0d083af3085d4168b *DESCRIPTION
 7e11623fc8847e80f221facd08583172 *NAMESPACE
+70cf02ed2d2275a86939652f43e3f632 *NEWS.md
 72217a3bcb556a50636abc626a514607 *R/bssbsb-data.R
 c49368ae410b6f58cbdea5f2f9e76cb2 *R/chiasma.R
 906a763327eda8a6883ade44d6e331d3 *R/coi_um.R
@@ -17,7 +17,7 @@ c12b3d85aba49493940679f302d2263f *R/recrate.R
 4e05d95092b0243833b534fe591aae82 *R/simStahl.R
 434759eb10f07717bd6504e6e08c1608 *R/util.R
 512fc541944352526881b95af0278a59 *R/xoiversion.R
-3923d09255b896ca72a90e7375d0c7e0 *data/bssbsb.RData
+b34775be93b4ad11e3f4c38cbffca9d2 *data/bssbsb.RData
 b2dddbc0b7f08b5d461c4db4af8fd04b *man/bssbsb.Rd
 feebada728bdbc95c1af1389e06412d5 *man/chiasma.Rd
 65edfbad5d1ccca21385312d80b3471b *man/coincidence.Rd
@@ -44,7 +44,7 @@ b20503f06aaa256fe589890d3d61abc0 *man/simStahl.Rd
 a6df24a6ed90a1a0905328e42c4eb775 *man/stahlcoi.Rd
 f13a08ecd1dabb039e1fc93c8a1b2710 *man/xoiversion.Rd
 6ae886bad0cb6391bb569f4f0e9d690c *man/xoprob.Rd
-31c471e7704344510c33c1e9f749bdec *src/GammaDensities.c
+3b74c30d5e738cdaa0048958ecf96591 *src/GammaDensities.c
 b7c32adead31990db980b97b74984302 *src/GammaIntegral.c
 a5d760c832440449d68cc1fd797d86a3 *src/GammaLoglik.c
 d320aa44f4e8ef01f2424530e16d2138 *src/GammaS.c
